@@ -1,31 +1,51 @@
 from enum import Enum
 
 class Persona(Enum):
-  P1 = "Adrian Crespo"
+  P1 = "Adrian"
   P2 = "Alejandro"
+  P3 = "Cesar"
 
 class Recepcionista(Enum):
-  R1 = "Carmen Rosales"
-  R2 = "Pamela lolas"
-  R3 = "Adriana loza"
+  R1 = "Karen"
+  R2 = "Pamela"
+  R3 = "Adriana"
+  R4 = "Ricardo"
 
 class Doctor(Enum):
-  D1 = "Doctor Chochoa"
-  D2 = "Doctor Muerte"
-  D3 = "Doctor Strange"
+  D1 = "House"
+  D2 = "Chapatin"
+  D3 = "Strange"
+  D4 = "Manhatan"
 
 # puntos del grafo
 class Ubicacion(Enum):
-  U1 = 1
-  U2 = 2
-  U3 = 3
-  U4 = 4
-  U5 = 5
-  C1 = "Hogar Dulce Hogar"
-  C2 = 7
-  H1 = "Hospital Vietma"
-  H2 = "Clinica los Olivos"
-  H3 = "Hospital Univalle"
+  Pt1 = 1
+  Pt2 = 2
+  Pt3 = 3
+  Pt4 = 4
+  Pt5 = 5
+  Pt6 = 6
+  Pt7 = 7
+  Pt8 = 8
+  Pt9 = 9
+  Pt10 = 10
+  Pt11 = 11
+  Pt12 = 12
+  Pt13 = 13
+  Pt14 = 14
+  Pt15 = 15
+  Pt16 = 16
+  Pt17 = 17
+  Pt18 = 18
+  Pt19 = 19
+  Pt20 = 20
+  CAD = "Casa Adrian"
+  CAL = "Casa Alejandro"
+  CCE = "Casa Cesar"
+  HUni = "Hospital del Valle"
+  HOli = "Clinica los olivas"
+  HVied = "Hospital Viedma"
+  HSSU = "Seguro Social Universitario"
 
 class Taxi(Enum):
   T1 = "Josias"
